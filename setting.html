@@ -24,43 +24,50 @@
     </div>
     <header class="header">
       <div class="header__column">
+        <a href="more.html">
+          <i class="fas fa-arrow-left fa-2x"></i>
+        </a>
         <h1 class="header__title">Settings</h1>
       </div>
       <div class="header__column">
         <span class="header__icon">
           <i class="fas fa-search"></i>
         </span>
-        <span class="header__icon">
-          <i class="far fa-comment"></i>
-        </span>
-        <span class="header__icon">
-          <i class="fas fa-cog"></i>
-        </span>
       </div>
     </header>
-    <nav class="nav">
-      <ul class="nav__nav-list">
-        <li class="nav__list-items">
-          <a href="friends.html" class="nav__list-link">
-            <i class="far fa-user"></i>
-          </a>
-        </li>
-        <li class="nav__list-items">
-          <a href="index.html" class="nav__list-link">
-            <i class="far fa-comment"></i>
-          </a>
-        </li>
-        <li class="nav__list-items">
-          <a href="find.html" class="nav__list-link">
-            <i class="fas fa-search"></i>
-          </a>
-        </li>
-        <li class="nav__list-items">
-          <a href="more.html" class="nav__list-link">
-            <i class="fas fa-ellipsis-h"></i>
-          </a>
-        </li>
-      </ul>
-    </nav>
+    <main class="settings">
+      <section class="settings__sections">
+        <ul class="settings__list">
+          <li class="settings__setting">
+            <span class="setting-icon"><i class="fas fa-bullhorn"></i></span>
+            <span class="setting-title">Notices</span>
+          </li>
+          <li class="settings__setting">
+            <span class="setting-icon"><i class="fas fa-flask"></i></span>
+            <span class="setting-title">Kakao Lab</span>
+          </li>
+          <li class="settings__setting">
+            <span class="setting-icon"><i class="fas fa-info-circle"></i></span>
+            <span class="setting-title">Version</span>
+          </li>
+        </ul>
+      </section>
+      <section class="settings__sections">
+        <ul class="settings__list">
+          <li class="settings__setting">
+            <span class="setting-icon"><i class="fas fa-lock"></i></span>
+            <span class="setting-title">Privacy</span>
+          </li>
+          <li class="settings__setting">
+            <span class="setting-icon"><i class="far fa-bell"></i></span>
+            <span class="setting-title">Notifications</span>
+          </li>
+          <li class="settings__setting">
+            <span class="setting-icon"><i class="far fa-user"></i></span>
+            <span class="setting-title">Friends</span>
+          </li>
+        </ul>
+      </section>
+    </main>
   </body>
 </html>
